@@ -11,6 +11,7 @@
 		94894CBB298EBA3D00778E06 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94894CBA298EBA3D00778E06 /* ContentView.swift */; };
 		94894CBD298EBA3E00778E06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94894CBC298EBA3E00778E06 /* Assets.xcassets */; };
 		94894CC0298EBA3E00778E06 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94894CBF298EBA3E00778E06 /* Preview Assets.xcassets */; };
+		94894CC7298EE06B00778E06 /* SwitcherIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94894CC6298EE06B00778E06 /* SwitcherIntent.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		94894CBA298EBA3D00778E06 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		94894CBC298EBA3E00778E06 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		94894CBF298EBA3E00778E06 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		94894CC6298EE06B00778E06 /* SwitcherIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitcherIntent.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				94894CB8298EBA3D00778E06 /* SwitcherApp.swift */,
 				94894CBA298EBA3D00778E06 /* ContentView.swift */,
+				94894CC6298EE06B00778E06 /* SwitcherIntent.swift */,
 				94894CBC298EBA3E00778E06 /* Assets.xcassets */,
 				94894CBE298EBA3E00778E06 /* Preview Content */,
 			);
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				94894CBB298EBA3D00778E06 /* ContentView.swift in Sources */,
+				94894CC7298EE06B00778E06 /* SwitcherIntent.swift in Sources */,
 				94894CB9298EBA3D00778E06 /* SwitcherApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
