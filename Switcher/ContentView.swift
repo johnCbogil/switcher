@@ -14,7 +14,7 @@ struct ContentView: View {
     init() {
         openCount = defaults.integer(forKey: "openCount")
     }
-
+    
     var body: some View {
         VStack {
             Image(systemName: "arrow.uturn.up")
@@ -27,11 +27,23 @@ struct ContentView: View {
         .onChange(of: phase) { newPhase in
             switch newPhase {
             case .active:
-                openCount += 1
-                defaults.set(openCount, forKey: "openCount")
+                trackCount()
+                openInstagram()
             default:
                 break
             }
+        }
+    }
+    
+    private func trackCount() {
+        openCount += 1
+        defaults.set(openCount, forKey: "openCount")
+    }
+    
+    private func openInstagram() {
+        Timer.scheduledTimer(withTimeInterval: 3, repeats: false) { timer in
+            let instagramURL = URL(string: "instagram://user?username=instagram")!
+            UIApplication.shared.open(instagramURL)
         }
     }
 }

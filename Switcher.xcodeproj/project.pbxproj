@@ -21,6 +21,7 @@
 		94894CBC298EBA3E00778E06 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		94894CBF298EBA3E00778E06 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		94894CC6298EE06B00778E06 /* SwitcherIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitcherIntent.swift; sourceTree = "<group>"; };
+		94894CC8298EEC2400778E06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +54,7 @@
 		94894CB7298EBA3D00778E06 /* Switcher */ = {
 			isa = PBXGroup;
 			children = (
+				94894CC8298EEC2400778E06 /* Info.plist */,
 				94894CB8298EBA3D00778E06 /* SwitcherApp.swift */,
 				94894CBA298EBA3D00778E06 /* ContentView.swift */,
 				94894CC6298EE06B00778E06 /* SwitcherIntent.swift */,
@@ -274,6 +276,7 @@
 				DEVELOPMENT_TEAM = FSG38ZWRPB;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Switcher/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -303,6 +306,7 @@
 				DEVELOPMENT_TEAM = FSG38ZWRPB;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Switcher/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
